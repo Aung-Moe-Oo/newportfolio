@@ -559,7 +559,8 @@ textarea {
   border-bottom: 1px solid var(--dark-color);
   padding: 0.5rem;
 }
-.input input:focus + .input-label {
+.input input:focus + .input-label,
+.input input:valid + .input-label{
   transform: translateY(-1.5rem) scale(0.7);
 }
 .form-button {
